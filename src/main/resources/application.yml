@@ -1,6 +1,9 @@
 spring:
   profiles:
     active: dev   #选dev中的配置
+server:
+  servlet:
+    context-path: /patentSystem
 ---
 server:
   port: 8082
