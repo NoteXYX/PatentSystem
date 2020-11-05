@@ -61,6 +61,25 @@
 			<artifactId>druid-spring-boot-starter</artifactId>
 			<version>1.1.14</version>
 		</dependency>
+		<!-- 操作ftp -->
+		<dependency>
+			<groupId>commons-net</groupId>
+			<artifactId>commons-net</artifactId>
+			<version>3.7.2</version>
+		</dependency>
+		<!-- 引入 Apache 的 commons-lang3 包，方便操作字符串-->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.11</version>
+		</dependency>
+		<!-- 引入 Apache commons-io 包，方便操作文件-->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.8.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
