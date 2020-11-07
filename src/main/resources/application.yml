@@ -4,6 +4,7 @@ spring:
 server:
   servlet:
     context-path: /patentSystem
+
 ---
 server:
   port: 8082
@@ -17,9 +18,9 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis:
   type-aliases-package: com.hfut.patentSystem.Dao.Entity
+  mapper-locations: classpath:mapperXML/*.xml
   configuration:
     map-underscore-to-camel-case: true
-
 
 ---
 server:

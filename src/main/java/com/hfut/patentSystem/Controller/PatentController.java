@@ -12,7 +12,7 @@ public class PatentController {
     PatentService patentService;
 
     @RequestMapping("/getPatentById")
-    public Patent getPatentById(int id) {
+    public Patent getPatentById(long id) {
         return patentService.getPatentById(id);
     }
 }

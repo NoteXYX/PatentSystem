@@ -13,7 +13,7 @@ public class PatentServiceImpl implements PatentService {
     PatentMapper patentMapper;
 
     @Override
-    public Patent getPatentById(int id) {
+    public Patent getPatentById(long id) {
         return patentMapper.queryPatentById(id);
     }
 }

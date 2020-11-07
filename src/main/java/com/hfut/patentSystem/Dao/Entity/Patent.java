@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class Patent {
     //主键id
-    private Integer id;
+    private Long id;
 
     //专利申请号
     private String appNum;
